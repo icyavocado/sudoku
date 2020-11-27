@@ -1,0 +1,37 @@
+{
+  "name": "sudoku",
+  "version": "1.0.0",
+  "description": "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/icyavocado/sudoku)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "jest": "^26.6.3",
+    "lodash": "^4.17.20",
+    "vue": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "axios-mock-adapter": "^1.19.0",
+    "babel-jest": "^26.6.3",
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "tests": "jest",
+    "test": "jest -t",
+    "start": "nodemon --exec npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icyavocado/sudoku.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icyavocado/sudoku/issues"
+  },
+  "homepage": "https://github.com/icyavocado/sudoku#readme"
+}
